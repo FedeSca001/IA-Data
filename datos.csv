@@ -1,28 +1,408 @@
-feature1,feature2,feature3,target
-1,2,3,6
-4,5,6,15
-7,8,9,24
-2,3,4,9
-10,11,12,33
-51,25,64,140
-84,36,12,132
-13,14,15,42
-16,17,18,51
-19,20,21,60
-22,23,24,69
-25,26,27,78
-28,29,30,87
-31,32,33,96
-34,35,36,105
-37,38,39,114
-40,41,42,123
-43,44,45,132
-46,47,48,141
-49,50,51,150
-52,53,54,159
-55,56,57,168
-58,59,60,177
-61,62,63,186
-64,65,66,195
-67,68,69,204
-70,71,72,213
+feature1,feature2,feature3,target,piloto,equipo,tiempo,posicion,top3
+,,,,Marc Márquez,Ducati,1.49,1.0,1.0
+,,,,Franco Morbidelli,Ducati,1.493,2.0,1.0
+,,,,Fabio Quartararo,Yamaha,1.496,3.0,1.0
+,,,,Jack Miller,Yamaha,1.497,4.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.497,5.0,0.0
+,,,,Ai Ogura,Aprilia,1.498,6.0,0.0
+,,,,Álex Márquez,Ducati,1.499,7.0,0.0
+,,,,Miguel Oliveira,Yamaha,1.5,8.0,0.0
+,,,,Francesco Bagnaia,Ducati,1.502,10.0,0.0
+,,,,Johann Zarco,Honda,1.503,11.0,0.0
+,,,,Luca Marini,Honda,1.504,12.0,0.0
+,,,,Joan Mir,Honda,1.504,13.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.504,14.0,0.0
+,,,,Alex Rins,Yamaha,1.505,15.0,0.0
+,,,,Somkiat Chantra,Honda,1.507,17.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,1.509,18.0,0.0
+,,,,Raúl Fernández,Aprilia,1.517,21.0,0.0
+,,,,Lorenzo Savadori,Aprilia,1.53,22.0,0.0
+,,,,Álex Márquez,Ducati,1.484,1.0,1.0
+,,,,Marc Márquez,Ducati,1.485,2.0,1.0
+,,,,Marco Bezzecchi,Aprilia,1.488,4.0,0.0
+,,,,Franco Morbidelli,Ducati,1.489,5.0,0.0
+,,,,Joan Mir,Honda,1.49,6.0,0.0
+,,,,Raúl Fernández,Aprilia,1.491,7.0,0.0
+,,,,Fabio Quartararo,Yamaha,1.492,8.0,0.0
+,,,,Ai Ogura,Aprilia,1.494,9.0,0.0
+,,,,Johann Zarco,Honda,1.494,10.0,0.0
+,,,,Francesco Bagnaia,Ducati,1.496,13.0,0.0
+,,,,Jack Miller,Yamaha,1.496,14.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,1.496,15.0,0.0
+,,,,Luca Marini,Honda,1.497,16.0,0.0
+,,,,Alex Rins,Yamaha,1.5,17.0,0.0
+,,,,Miguel Oliveira,Yamaha,1.5,18.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.505,20.0,0.0
+,,,,Somkiat Chantra,Honda,1.505,21.0,0.0
+,,,,Lorenzo Savadori,Aprilia,1.517,22.0,0.0
+,,,,Franco Morbidelli,Ducati,1.494,1.0,1.0
+,,,,Marc Márquez,Ducati,1.495,2.0,1.0
+,,,,Francesco Bagnaia,Ducati,1.5,3.0,1.0
+,,,,Fermín Aldeguer,Ducati,1.5,4.0,0.0
+,,,,Álex Márquez,Ducati,1.501,5.0,0.0
+,,,,Ai Ogura,Aprilia,1.504,6.0,0.0
+,,,,Johann Zarco,Honda,1.504,7.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,1.505,8.0,0.0
+,,,,Somkiat Chantra,Honda,1.506,9.0,0.0
+,,,,Fabio Quartararo,Yamaha,1.506,10.0,0.0
+,,,,Joan Mir,Honda,1.507,11.0,0.0
+,,,,Raúl Fernández,Aprilia,1.507,12.0,0.0
+,,,,Luca Marini,Honda,1.508,13.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.509,15.0,0.0
+,,,,Jack Miller,Yamaha,1.509,16.0,0.0
+,,,,Miguel Oliveira,Yamaha,1.509,17.0,0.0
+,,,,Alex Rins,Yamaha,1.517,21.0,0.0
+,,,,Lorenzo Savadori,Aprilia,1.532,22.0,0.0
+,,,,Marc Márquez,Ducati,1.48,1.0,1.0
+,,,,Álex Márquez,Ducati,1.482,2.0,1.0
+,,,,Francesco Bagnaia,Ducati,1.483,3.0,1.0
+,,,,Jack Miller,Yamaha,1.485,4.0,0.0
+,,,,Ai Ogura,Aprilia,1.486,5.0,0.0
+,,,,Raúl Fernández,Aprilia,1.49,7.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.49,8.0,0.0
+,,,,Franco Morbidelli,Ducati,1.486,9.0,0.0
+,,,,Fabio Quartararo,Yamaha,1.49,10.0,0.0
+,,,,Joan Mir,Honda,1.491,11.0,0.0
+,,,,Johann Zarco,Honda,1.494,12.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,1.488,13.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.492,15.0,0.0
+,,,,Luca Marini,Honda,1.492,16.0,0.0
+,,,,Miguel Oliveira,Yamaha,1.493,17.0,0.0
+,,,,Alex Rins,Yamaha,1.496,19.0,0.0
+,,,,Lorenzo Savadori,Aprilia,1.511,21.0,0.0
+,,,,Somkiat Chantra,Honda,1.502,22.0,0.0
+,,,,Marc Márquez,Ducati,19.583,1.0,1.0
+,,,,Álex Márquez,Ducati,19.603,2.0,1.0
+,,,,Francesco Bagnaia,Ducati,19.64,3.0,1.0
+,,,,Ai Ogura,Aprilia,19.656,4.0,0.0
+,,,,Franco Morbidelli,Ducati,19.68,5.0,0.0
+,,,,Fabio Quartararo,Yamaha,19.807,7.0,0.0
+,,,,Joan Mir,Honda,19.841,9.0,0.0
+,,,,Johann Zarco,Honda,19.853,10.0,0.0
+,,,,Raúl Fernández,Aprilia,19.863,11.0,0.0
+,,,,Marco Bezzecchi,Aprilia,19.869,12.0,0.0
+,,,,Fermín Aldeguer,Ducati,19.879,13.0,0.0
+,,,,Luca Marini,Honda,19.902,15.0,0.0
+,,,,Miguel Oliveira,Yamaha,19.909,16.0,0.0
+,,,,Alex Rins,Yamaha,19.919,17.0,0.0
+,,,,Somkiat Chantra,Honda,19.993,19.0,0.0
+,,,,Lorenzo Savadori,Aprilia,20.107,20.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,,21.0,0.0
+,,,,Jack Miller,Yamaha,,22.0,0.0
+,,,,Marc Márquez,Ducati,39.621,1.0,1.0
+,,,,Álex Márquez,Ducati,39.65,2.0,1.0
+,,,,Francesco Bagnaia,Ducati,39.661,3.0,1.0
+,,,,Franco Morbidelli,Ducati,39.707,4.0,0.0
+,,,,Ai Ogura,Aprilia,39.745,5.0,0.0
+,,,,Marco Bezzecchi,Aprilia,39.87,6.0,0.0
+,,,,Johann Zarco,Honda,39.875,7.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,39.98,10.0,0.0
+,,,,Jack Miller,Yamaha,39.993,11.0,0.0
+,,,,Luca Marini,Honda,40.02,12.0,0.0
+,,,,Fermín Aldeguer,Ducati,40.034,13.0,0.0
+,,,,Miguel Oliveira,Yamaha,40.056,14.0,0.0
+,,,,Fabio Quartararo,Yamaha,40.062,15.0,0.0
+,,,,Alex Rins,Yamaha,40.139,17.0,0.0
+,,,,Somkiat Chantra,Honda,40.146,18.0,0.0
+,,,,Lorenzo Savadori,Aprilia,40.401,20.0,0.0
+,,,,Raúl Fernández,Aprilia,,21.0,0.0
+,,,,Joan Mir,Honda,,22.0,0.0
+,,,,Marc Márquez,Ducati,1.649,1.0,1.0
+,,,,Johann Zarco,Honda,1.649,2.0,1.0
+,,,,Álex Márquez,Ducati,1.654,3.0,1.0
+,,,,Franco Morbidelli,Ducati,1.657,4.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.66,5.0,0.0
+,,,,Luca Marini,Honda,1.66,6.0,0.0
+,,,,Jack Miller,Yamaha,1.661,7.0,0.0
+,,,,Joan Mir,Honda,1.665,9.0,0.0
+,,,,Alex Rins,Yamaha,1.666,12.0,0.0
+,,,,Fabio Quartararo,Yamaha,1.667,13.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,1.668,14.0,0.0
+,,,,Ai Ogura,Aprilia,1.669,15.0,0.0
+,,,,Francesco Bagnaia,Ducati,1.672,16.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.677,17.0,0.0
+,,,,Miguel Oliveira,Yamaha,1.68,18.0,0.0
+,,,,Somkiat Chantra,Honda,1.68,19.0,0.0
+,,,,Raúl Fernández,Aprilia,1.681,20.0,0.0
+,,,,Lorenzo Savadori,Aprilia,1.698,22.0,0.0
+,,,,Marc Márquez,Ducati,1.622,1.0,1.0
+,,,,Fabio Di Giannantonio,Ducati,1.624,2.0,1.0
+,,,,Álex Márquez,Ducati,1.625,3.0,1.0
+,,,,Marco Bezzecchi,Aprilia,1.626,4.0,0.0
+,,,,Alex Rins,Yamaha,1.627,6.0,0.0
+,,,,Johann Zarco,Honda,1.629,7.0,0.0
+,,,,Fabio Quartararo,Yamaha,1.631,8.0,0.0
+,,,,Francesco Bagnaia,Ducati,1.631,10.0,0.0
+,,,,Ai Ogura,Aprilia,1.631,11.0,0.0
+,,,,Franco Morbidelli,Ducati,1.633,12.0,0.0
+,,,,Joan Mir,Honda,1.633,13.0,0.0
+,,,,Jack Miller,Yamaha,1.635,14.0,0.0
+,,,,Luca Marini,Honda,1.636,15.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.64,17.0,0.0
+,,,,Miguel Oliveira,Yamaha,1.645,18.0,0.0
+,,,,Somkiat Chantra,Honda,1.645,19.0,0.0
+,,,,Raúl Fernández,Aprilia,1.646,20.0,0.0
+,,,,Lorenzo Savadori,Aprilia,1.652,22.0,0.0
+,,,,Álex Márquez,Ducati,1.63,1.0,1.0
+,,,,Marc Márquez,Ducati,1.631,2.0,1.0
+,,,,Johann Zarco,Honda,1.633,3.0,1.0
+,,,,Fabio Di Giannantonio,Ducati,1.634,4.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.64,6.0,0.0
+,,,,Francesco Bagnaia,Ducati,1.64,7.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.64,8.0,0.0
+,,,,Jack Miller,Yamaha,1.64,9.0,0.0
+,,,,Fabio Quartararo,Yamaha,1.64,10.0,0.0
+,,,,Joan Mir,Honda,1.64,11.0,0.0
+,,,,Franco Morbidelli,Ducati,1.641,12.0,0.0
+,,,,Alex Rins,Yamaha,1.641,13.0,0.0
+,,,,Luca Marini,Honda,1.642,14.0,0.0
+,,,,Ai Ogura,Aprilia,1.644,15.0,0.0
+,,,,Miguel Oliveira,Yamaha,1.644,16.0,0.0
+,,,,Raúl Fernández,Aprilia,1.646,18.0,0.0
+,,,,Somkiat Chantra,Honda,1.66,21.0,0.0
+,,,,Lorenzo Savadori,Aprilia,1.665,22.0,0.0
+,,,,Marc Márquez,Ducati,1.615,1.0,1.0
+,,,,Álex Márquez,Ducati,1.619,2.0,1.0
+,,,,Johann Zarco,Honda,1.62,3.0,1.0
+,,,,Francesco Bagnaia,Ducati,1.621,4.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,1.621,6.0,0.0
+,,,,Fabio Quartararo,Yamaha,1.622,7.0,0.0
+,,,,Franco Morbidelli,Ducati,1.623,8.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.623,9.0,0.0
+,,,,Joan Mir,Honda,1.626,10.0,0.0
+,,,,Alex Rins,Yamaha,1.629,12.0,0.0
+,,,,Jack Miller,Yamaha,1.626,13.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.628,14.0,0.0
+,,,,Ai Ogura,Aprilia,1.629,15.0,0.0
+,,,,Luca Marini,Honda,1.633,16.0,0.0
+,,,,Miguel Oliveira,Yamaha,1.634,17.0,0.0
+,,,,Raúl Fernández,Aprilia,1.636,18.0,0.0
+,,,,Somkiat Chantra,Honda,1.636,19.0,0.0
+,,,,Lorenzo Savadori,Aprilia,1.654,22.0,0.0
+,,,,Marc Márquez,Ducati,19.622,1.0,1.0
+,,,,Álex Márquez,Ducati,19.637,2.0,1.0
+,,,,Francesco Bagnaia,Ducati,19.686,3.0,1.0
+,,,,Johann Zarco,Honda,19.706,4.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,19.73,5.0,0.0
+,,,,Marco Bezzecchi,Aprilia,19.744,6.0,0.0
+,,,,Franco Morbidelli,Ducati,19.761,7.0,0.0
+,,,,Joan Mir,Honda,19.803,8.0,0.0
+,,,,Fabio Quartararo,Yamaha,19.828,10.0,0.0
+,,,,Jack Miller,Yamaha,19.875,11.0,0.0
+,,,,Alex Rins,Yamaha,19.877,12.0,0.0
+,,,,Luca Marini,Honda,19.9,13.0,0.0
+,,,,Ai Ogura,Aprilia,19.932,15.0,0.0
+,,,,Raúl Fernández,Aprilia,19.948,16.0,0.0
+,,,,Somkiat Chantra,Honda,19.971,17.0,0.0
+,,,,Fermín Aldeguer,Ducati,20.377,19.0,0.0
+,,,,Lorenzo Savadori,Aprilia,,20.0,0.0
+,,,,Miguel Oliveira,Yamaha,,21.0,0.0
+,,,,Marc Márquez,Ducati,41.185,1.0,1.0
+,,,,Álex Márquez,Ducati,41.208,2.0,1.0
+,,,,Franco Morbidelli,Ducati,41.263,3.0,1.0
+,,,,Francesco Bagnaia,Ducati,41.277,4.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,41.304,5.0,0.0
+,,,,Johann Zarco,Honda,41.31,6.0,0.0
+,,,,Joan Mir,Honda,41.448,9.0,0.0
+,,,,Luca Marini,Honda,41.452,10.0,0.0
+,,,,Alex Rins,Yamaha,41.546,11.0,0.0
+,,,,Jack Miller,Yamaha,41.576,13.0,0.0
+,,,,Fabio Quartararo,Yamaha,41.604,14.0,0.0
+,,,,Raúl Fernández,Aprilia,41.634,15.0,0.0
+,,,,Fermín Aldeguer,Ducati,41.646,16.0,0.0
+,,,,Somkiat Chantra,Honda,41.88,18.0,0.0
+,,,,Marco Bezzecchi,Aprilia,,19.0,0.0
+,,,,Ai Ogura,Aprilia,41.426,20.0,0.0
+,,,,Franco Morbidelli,Ducati,2.209,1.0,1.0
+,,,,Jack Miller,Yamaha,2.21,2.0,1.0
+,,,,Marc Márquez,Ducati,2.213,3.0,1.0
+,,,,Johann Zarco,Honda,2.214,4.0,0.0
+,,,,Francesco Bagnaia,Ducati,2.222,6.0,0.0
+,,,,Álex Márquez,Ducati,2.222,7.0,0.0
+,,,,Joan Mir,Honda,2.238,11.0,0.0
+,,,,Luca Marini,Honda,2.238,12.0,0.0
+,,,,Fermín Aldeguer,Ducati,2.242,13.0,0.0
+,,,,Fabio Quartararo,Yamaha,2.242,14.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,2.249,16.0,0.0
+,,,,Raúl Fernández,Aprilia,2.258,17.0,0.0
+,,,,Alex Rins,Yamaha,2.258,18.0,0.0
+,,,,Marco Bezzecchi,Aprilia,2.262,19.0,0.0
+,,,,Somkiat Chantra,Honda,2.266,20.0,0.0
+,,,,Lorenzo Savadori,Aprilia,2.329,21.0,0.0
+,,,,Ai Ogura,Aprilia,2.357,22.0,0.0
+,,,,Marc Márquez,Ducati,2.049,1.0,1.0
+,,,,Fabio Di Giannantonio,Ducati,2.061,2.0,1.0
+,,,,Franco Morbidelli,Ducati,2.063,3.0,1.0
+,,,,Álex Márquez,Ducati,2.064,4.0,0.0
+,,,,Fermín Aldeguer,Ducati,2.065,5.0,0.0
+,,,,Jack Miller,Yamaha,2.066,6.0,0.0
+,,,,Joan Mir,Honda,2.073,9.0,0.0
+,,,,Francesco Bagnaia,Ducati,2.075,10.0,0.0
+,,,,Fabio Quartararo,Yamaha,2.077,11.0,0.0
+,,,,Marco Bezzecchi,Aprilia,2.08,13.0,0.0
+,,,,Ai Ogura,Aprilia,2.082,14.0,0.0
+,,,,Luca Marini,Honda,2.083,15.0,0.0
+,,,,Raúl Fernández,Aprilia,2.085,16.0,0.0
+,,,,Alex Rins,Yamaha,2.088,17.0,0.0
+,,,,Johann Zarco,Honda,2.1,20.0,0.0
+,,,,Somkiat Chantra,Honda,2.108,21.0,0.0
+,,,,Lorenzo Savadori,Aprilia,2.116,22.0,0.0
+,,,,Marc Márquez,Ducati,2.035,1.0,1.0
+,,,,Álex Márquez,Ducati,2.042,2.0,1.0
+,,,,Joan Mir,Honda,2.045,4.0,0.0
+,,,,Francesco Bagnaia,Ducati,2.047,5.0,0.0
+,,,,Luca Marini,Honda,2.048,6.0,0.0
+,,,,Fabio Quartararo,Yamaha,2.049,7.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,2.049,8.0,0.0
+,,,,Franco Morbidelli,Ducati,2.05,9.0,0.0
+,,,,Marco Bezzecchi,Aprilia,2.053,11.0,0.0
+,,,,Fermín Aldeguer,Ducati,2.053,12.0,0.0
+,,,,Jack Miller,Yamaha,2.057,13.0,0.0
+,,,,Johann Zarco,Honda,2.058,14.0,0.0
+,,,,Raúl Fernández,Aprilia,2.059,15.0,0.0
+,,,,Ai Ogura,Aprilia,2.061,17.0,0.0
+,,,,Alex Rins,Yamaha,2.069,19.0,0.0
+,,,,Somkiat Chantra,Honda,2.09,21.0,0.0
+,,,,Lorenzo Savadori,Aprilia,2.098,22.0,0.0
+,,,,Marc Márquez,Ducati,2.018,1.0,1.0
+,,,,Fabio Di Giannantonio,Ducati,2.02,2.0,1.0
+,,,,Álex Márquez,Ducati,2.024,3.0,1.0
+,,,,Franco Morbidelli,Ducati,2.025,5.0,0.0
+,,,,Francesco Bagnaia,Ducati,2.027,6.0,0.0
+,,,,Luca Marini,Honda,2.029,7.0,0.0
+,,,,Joan Mir,Honda,2.033,8.0,0.0
+,,,,Jack Miller,Yamaha,2.033,9.0,0.0
+,,,,Fabio Quartararo,Yamaha,2.034,11.0,0.0
+,,,,Fermín Aldeguer,Ducati,2.04,12.0,0.0
+,,,,Marco Bezzecchi,Aprilia,2.036,13.0,0.0
+,,,,Alex Rins,Yamaha,2.042,14.0,0.0
+,,,,Johann Zarco,Honda,2.044,15.0,0.0
+,,,,Ai Ogura,Aprilia,2.048,18.0,0.0
+,,,,Raúl Fernández,Aprilia,2.049,19.0,0.0
+,,,,Somkiat Chantra,Honda,2.065,21.0,0.0
+,,,,Lorenzo Savadori,Aprilia,2.071,22.0,0.0
+,,,,Marc Márquez,Ducati,20.492,1.0,1.0
+,,,,Álex Márquez,Ducati,20.505,2.0,1.0
+,,,,Francesco Bagnaia,Ducati,20.524,3.0,1.0
+,,,,Fabio Di Giannantonio,Ducati,20.634,4.0,0.0
+,,,,Franco Morbidelli,Ducati,20.653,5.0,0.0
+,,,,Fabio Quartararo,Yamaha,20.67,6.0,0.0
+,,,,Luca Marini,Honda,20.718,8.0,0.0
+,,,,Ai Ogura,Aprilia,20.721,9.0,0.0
+,,,,Marco Bezzecchi,Aprilia,20.735,10.0,0.0
+,,,,Fermín Aldeguer,Ducati,20.738,11.0,0.0
+,,,,Jack Miller,Yamaha,20.762,14.0,0.0
+,,,,Alex Rins,Yamaha,20.795,15.0,0.0
+,,,,Johann Zarco,Honda,20.802,16.0,0.0
+,,,,Raúl Fernández,Aprilia,20.853,17.0,0.0
+,,,,Somkiat Chantra,Honda,21.052,19.0,0.0
+,,,,Lorenzo Savadori,Aprilia,21.125,20.0,0.0
+,,,,Francesco Bagnaia,Ducati,39.003,1.0,1.0
+,,,,Álex Márquez,Ducati,39.038,2.0,1.0
+,,,,Fabio Di Giannantonio,Ducati,39.063,3.0,1.0
+,,,,Franco Morbidelli,Ducati,39.182,4.0,0.0
+,,,,Jack Miller,Yamaha,39.201,5.0,0.0
+,,,,Marco Bezzecchi,Aprilia,39.207,6.0,0.0
+,,,,Luca Marini,Honda,39.264,8.0,0.0
+,,,,Ai Ogura,Aprilia,39.275,9.0,0.0
+,,,,Fabio Quartararo,Yamaha,39.307,10.0,0.0
+,,,,Alex Rins,Yamaha,39.407,11.0,0.0
+,,,,Raúl Fernández,Aprilia,39.469,12.0,0.0
+,,,,Lorenzo Savadori,Aprilia,39.776,15.0,0.0
+,,,,Somkiat Chantra,Honda,40.063,16.0,0.0
+,,,,Johann Zarco,Honda,,17.0,0.0
+,,,,Fermín Aldeguer,Ducati,,18.0,0.0
+,,,,Marc Márquez,Ducati,,20.0,0.0
+,,,,Joan Mir,Honda,,21.0,0.0
+,,,,Marc Márquez,Ducati,1.871,1.0,1.0
+,,,,Fabio Di Giannantonio,Ducati,1.88,2.0,1.0
+,,,,Francesco Bagnaia,Ducati,1.881,3.0,1.0
+,,,,Álex Márquez,Ducati,1.882,4.0,0.0
+,,,,Franco Morbidelli,Ducati,1.886,6.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.886,7.0,0.0
+,,,,Joan Mir,Honda,1.887,8.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.887,9.0,0.0
+,,,,Fabio Quartararo,Yamaha,1.888,11.0,0.0
+,,,,Luca Marini,Honda,1.889,12.0,0.0
+,,,,Alex Rins,Yamaha,1.89,13.0,0.0
+,,,,Johann Zarco,Honda,1.891,14.0,0.0
+,,,,Ai Ogura,Aprilia,1.891,15.0,0.0
+,,,,Jack Miller,Yamaha,1.901,19.0,0.0
+,,,,Raúl Fernández,Aprilia,1.901,21.0,0.0
+,,,,Somkiat Chantra,Honda,1.906,22.0,0.0
+,,,,Franco Morbidelli,Ducati,1.847,1.0,1.0
+,,,,Francesco Bagnaia,Ducati,1.849,2.0,1.0
+,,,,Marc Márquez,Ducati,1.85,3.0,1.0
+,,,,Fabio Di Giannantonio,Ducati,1.852,4.0,0.0
+,,,,Álex Márquez,Ducati,1.854,5.0,0.0
+,,,,Fabio Quartararo,Yamaha,1.855,6.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.86,9.0,0.0
+,,,,Johann Zarco,Honda,1.86,10.0,0.0
+,,,,Alex Rins,Yamaha,1.861,11.0,0.0
+,,,,Luca Marini,Honda,1.863,12.0,0.0
+,,,,Joan Mir,Honda,1.863,13.0,0.0
+,,,,Ai Ogura,Aprilia,1.866,15.0,0.0
+,,,,Jack Miller,Yamaha,1.867,17.0,0.0
+,,,,Raúl Fernández,Aprilia,1.869,18.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.869,19.0,0.0
+,,,,Somkiat Chantra,Honda,1.883,22.0,0.0
+,,,,Marc Márquez,Ducati,1.865,1.0,1.0
+,,,,Álex Márquez,Ducati,1.869,2.0,1.0
+,,,,Fabio Quartararo,Yamaha,1.873,3.0,1.0
+,,,,Johann Zarco,Honda,1.874,4.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.876,7.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.878,8.0,0.0
+,,,,Ai Ogura,Aprilia,1.879,9.0,0.0
+,,,,Alex Rins,Yamaha,1.879,10.0,0.0
+,,,,Francesco Bagnaia,Ducati,1.88,11.0,0.0
+,,,,Franco Morbidelli,Ducati,1.88,12.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,1.881,13.0,0.0
+,,,,Luca Marini,Honda,1.884,15.0,0.0
+,,,,Joan Mir,Honda,1.885,17.0,0.0
+,,,,Raúl Fernández,Aprilia,1.887,18.0,0.0
+,,,,Jack Miller,Yamaha,1.891,20.0,0.0
+,,,,Marc Márquez,Ducati,1.842,1.0,1.0
+,,,,Álex Márquez,Ducati,1.844,2.0,1.0
+,,,,Fabio Quartararo,Yamaha,1.846,3.0,1.0
+,,,,Franco Morbidelli,Ducati,1.847,4.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,1.849,5.0,0.0
+,,,,Johann Zarco,Honda,1.852,7.0,0.0
+,,,,Fermín Aldeguer,Ducati,1.852,8.0,0.0
+,,,,Alex Rins,Yamaha,1.853,9.0,0.0
+,,,,Ai Ogura,Aprilia,1.856,10.0,0.0
+,,,,Francesco Bagnaia,Ducati,1.86,11.0,0.0
+,,,,Marco Bezzecchi,Aprilia,1.86,13.0,0.0
+,,,,Luca Marini,Honda,1.862,15.0,0.0
+,,,,Jack Miller,Yamaha,1.863,16.0,0.0
+,,,,Raúl Fernández,Aprilia,1.864,17.0,0.0
+,,,,Joan Mir,Honda,1.87,21.0,0.0
+,,,,Somkiat Chantra,Honda,1.888,22.0,0.0
+,,,,Marc Márquez,Ducati,20.638,1.0,1.0
+,,,,Álex Márquez,Ducati,20.664,2.0,1.0
+,,,,Franco Morbidelli,Ducati,20.704,3.0,1.0
+,,,,Fermín Aldeguer,Ducati,20.711,4.0,0.0
+,,,,Fabio Quartararo,Yamaha,20.715,5.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,20.723,6.0,0.0
+,,,,Ai Ogura,Aprilia,20.808,7.0,0.0
+,,,,Francesco Bagnaia,Ducati,20.81,8.0,0.0
+,,,,Marco Bezzecchi,Aprilia,20.826,9.0,0.0
+,,,,Alex Rins,Yamaha,20.876,12.0,0.0
+,,,,Luca Marini,Honda,20.898,15.0,0.0
+,,,,Raúl Fernández,Aprilia,20.91,17.0,0.0
+,,,,Jack Miller,Yamaha,20.976,19.0,0.0
+,,,,Somkiat Chantra,Honda,21.156,20.0,0.0
+,,,,Johann Zarco,Honda,,21.0,0.0
+,,,,Marc Márquez,Ducati,41.486,1.0,1.0
+,,,,Francesco Bagnaia,Ducati,41.562,2.0,1.0
+,,,,Franco Morbidelli,Ducati,41.594,3.0,1.0
+,,,,Johann Zarco,Honda,41.597,4.0,0.0
+,,,,Fermín Aldeguer,Ducati,41.611,5.0,0.0
+,,,,Álex Márquez,Ducati,41.649,6.0,0.0
+,,,,Fabio Quartararo,Yamaha,41.701,7.0,0.0
+,,,,Marco Bezzecchi,Aprilia,41.725,9.0,0.0
+,,,,Luca Marini,Honda,41.738,10.0,0.0
+,,,,Alex Rins,Yamaha,41.779,12.0,0.0
+,,,,Ai Ogura,Aprilia,41.799,15.0,0.0
+,,,,Fabio Di Giannantonio,Ducati,41.925,16.0,0.0
+,,,,Raúl Fernández,Aprilia,41.935,17.0,0.0
+,,,,Somkiat Chantra,Honda,42.122,18.0,0.0
